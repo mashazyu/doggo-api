@@ -51,7 +51,8 @@ Company.create(
 puts 'Creating dogs'
 breed_ids = Breed.pluck(:id)
 company_ids = Company.pluck(:id)
+names = %w[Bestie Lara Nikky Rusty Wilma]
 
-10.times do
-  Dog.create(breed_id: breed_ids.sample, company_id: company_ids.sample)
+10.times do |i|
+  Dog.create(name: names.sample, breed_id: breed_ids.sample, company_id: company_ids.sample)
 end

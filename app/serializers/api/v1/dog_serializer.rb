@@ -1,5 +1,5 @@
 class Api::V1::DogSerializer < ActiveModel::Serializer
-  attributes :id, :breed, :company
+  attributes :id, :name, :breed, :company
 
   def company
     object.company.name
