@@ -54,3 +54,11 @@ with params (only name can be changed)
 ### Delete a dog
 
 `DELETE localhost:3000/api/v1/dogs/#{dog.id}`
+
+## RSPEC
+
+To run test suits please use the following command:
+
+Then, after cloning the project and moving to the project folder, the following commands should bring you up to speed:
+
+`rspec`
