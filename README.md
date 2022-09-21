@@ -1,7 +1,8 @@
 # Doggo API
 
-This is a basir Rails Api app, that implements CRUD (Create, Read, Update, Destroy) methods for the dogs endpoint.
-To flatten the response active-model-serializer is used, rspec & FactoryBot aare used for testing.
+This is a basic Rails Api app, that implements CRUD (Create, Read, Update, Destroy) methods for the dogs endpoint.
+- To flatten the response active-model-serializer is used,
+- rspec & FactoryBotaare used for testing.
 
 ## Installation
 
@@ -10,11 +11,11 @@ To run this app locally Ruby and SQLite3 should be installed. Installation instr
 Then, after cloning the project and moving to the project folder, the following commands should bring you up to speed:
 
 `
-  bundle install
-  rails db:create
-  rails db:migrate
-  rails db:seed
-  rails s
+     bundle install
+     rails db:create
+     rails db:migrate
+     rails db:seed
+     rails s
 `
 
 ## Test instructions
